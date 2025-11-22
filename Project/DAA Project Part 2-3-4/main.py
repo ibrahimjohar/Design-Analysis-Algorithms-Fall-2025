@@ -1,5 +1,5 @@
 #DAA Project - Divide and Conquer Algorithms Analyzer
-#Group Members: Syed Ukkashah (23K-0055) & Ibrahim Johar (23K-0074)
+#Group Members: Syed Ukkashah (23K-0055), Ibrahim Johar (23K-0074), Amna Asim (23K-0859)
 #BAI-5A
 
 from gui import DivideConquerGUI
@@ -28,4 +28,5 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__":
+
     main()
