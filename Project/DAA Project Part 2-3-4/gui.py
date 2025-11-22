@@ -433,7 +433,7 @@ class DivideConquerGUI:
         footer_frame.columnconfigure(0, weight=1)
         
         footer_label = ttk.Label(footer_frame,
-                                text="Divide and Conquer Algorithms | DAA Project | 5th Semester | Syed Ukkashah & Ibrahim Johar",
+                                text="Divide and Conquer Algorithms | DAA Project | 5th Semester | Syed Ukkashah, Ibrahim Johar, Amna Asim",
                                 background=self.colors['dark_bg'],
                                 foreground=self.colors['text'],
                                 font=self.font_text)
@@ -895,4 +895,5 @@ class DivideConquerGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = DivideConquerGUI(root)
+
     root.mainloop()
